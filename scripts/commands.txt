@@ -1,0 +1,16 @@
+####DEPLOY 
+rm Assignment-2.jar
+cp /home/ahmed/lab/comp5349-a2/target/Assignment-2.jar . 
+scp Assignment-2.jar asye5989@soit-hdp-pro-25.ucc.usyd.edu.au:lab1/
+ 
+
+
+
+### LOGIN 
+
+ssh  asye5989@soit-hdp-pro-25.ucc.usyd.edu.au 
+ 
+
+##YARN 
+http://soit-hdp-pro-1.ucc.usyd.edu.au:8088
+ 
